@@ -24,7 +24,7 @@ elif pil == "2":
 	print(h+"Sucses install "+k+"curl(youtube-dl)")
 	os.system("chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl ")
 	rw = raw_input(b+"Tekan enter untuk lanjut : ")
-	if raw == " ":
+	if rw == " ":
 		os.chdir("X");os.system("python2 yt.py")
 
 	else:
