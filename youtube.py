@@ -17,14 +17,14 @@ if pil == "1":
 
 elif pil == "2":
 	os.system("pkg install ffmpeg python python2 curl figlet &> /dev/null")
-	print(h+"Sucses install "+k+"[ffmpeg,curl,figlet]"
+	print(h+"Sucses install "+k+"[ffmpeg,curl,figlet]")
 	os.system("pip install youtube-dl  &> /dev/null")
 	print(h+"Sucses instal "+k+"pip(youtube-dl)")
 	os.system("curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /data/data/com.termux/files/usr/bin/youtube-dl  &> /dev/null")
 	print(h+"Sucses install "+k+"curl(youtube-dl)")
 	os.system("chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl ")
 	rw = raw_input(b+"Tekan enter untuk lanjut : ")
-	if raw = " ":
+	if raw == " ":
 		os.chdir("X");os.system("python2 yt.py")
 
 	else:
