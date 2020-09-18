@@ -18,7 +18,7 @@ if pil == "1":
 elif pil == "2":
 	os.system("pkg install ffmpeg python python2 curl figlet &> /dev/null")
 	print(h+"Sucses install "+k+"[ffmpeg,curl,figlet]")
-	os.system("python -m pip install youtube-dl  &> /dev/null")
+	os.system("pip2 install youtube-dl  &> /dev/null")
 	print(h+"Sucses instal "+k+"pip(youtube-dl)")
 	os.system("curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /data/data/com.termux/files/usr/bin/youtube-dl  &> /dev/null")
 	print(h+"Sucses install "+k+"curl(youtube-dl)")
