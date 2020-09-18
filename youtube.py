@@ -13,7 +13,7 @@ sleep(2)
 print(u+"====="+k+"Login SC"+u+"=====\n"+p+"["+h+"1"+p+"]"+b+" Login SC\n"+p+"["+h+"2"+p+"]"+b+" install bahan\n"+p+"["+h+"0"+p+"]"+m+" Exit")
 pil = raw_input(k+"pilih => ")
 if pil == "1":
-	os.chdir("X");os.system('python2 yt.py')
+	os.system('python2 yt.py')
 
 elif pil == "2":
 	os.system("pip2 install youtube-dl  &> /dev/null")
@@ -23,10 +23,10 @@ elif pil == "2":
 	os.system("chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl ")
 	rw = raw_input(b+"Tekan enter untuk lanjut : ")
 	if rw == " ":
-		os.chdir("X");os.system("python2 yt.py")
+		os.system("python2 yt.py")
 
 	else:
-		os.chdir("X");os.system("python2 yt.py")
+		os.system("python2 yt.py")
 
 elif pil == "0":
 	sys.exit()
